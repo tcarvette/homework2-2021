@@ -12,9 +12,7 @@ h1 {
 
 h2 {
     font-size:32px;
-    text-shadow:2px 2px 2px #808080;
-    /* offset 4px horizontally and 4px vertically */
-    background-position:4px 4px;
+    text-shadow:4px 4px 2px #808080;
 }
 
 p {
@@ -32,8 +30,12 @@ img {
 }
 
 div {
-    height:150px auto;
-    padding:25px 25px 25px 25px;
+    min-height:150px;
+    height:auto;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:25px;
+    padding-bottom:25px;
 }
 
 #red {
@@ -50,7 +52,7 @@ div {
     background-color:#FFFF00;
     text-align:right;
     color:#000000;
-    text-shadow:2px 2px 2px #c7e2c7;
+    text-shadow:4px 4px 2px #c7e2c7;
 }
 
 #green {
@@ -62,4 +64,6 @@ footer {
     text-align: center;
     padding-bottom:10px;
     padding-right:10px;
+    padding-left:0px;
+    padding-top:0px;
 }
